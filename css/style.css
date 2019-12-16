@@ -1,0 +1,28 @@
+body{
+    background: gray;
+    margin: 0 auto;
+    width: 760px;
+}
+
+h2 {
+    color: #ff0000;
+    text-align: center;
+    background-color: #ffff00;
+    border: 5px dashed #ff0000;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    margin-bottom: 20px;
+}
+
+.bold {
+    font-weight: bold;
+}
+#important{
+    font-size: 30px;
+    color: #aa0000;
+}

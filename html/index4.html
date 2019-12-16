@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>フォームレッスン</title>
+</head>
+<body>
+    <h1>フォームレッスン</h1>
+    <p>以下のフォームを埋めてください（※は必須項目）</p>
+    <form action="">
+        <div>
+            <label for="username">※ユーザー名:</label>
+            <input id="username" type="text" required>
+        </div>
+        <div>
+            <label for="password">※パスワード（6文字以上）:</label>
+            <input id="password" type="password" minlength="6" required>
+        </div>
+        <div>
+            ※性別:
+            <label for="male">男性</label>
+            <input id="male" type="radio" name="sex" required>
+            <label for="female">女性</label>
+            <input id="female" type="radio" name="sex" required>
+        </div>
+        <div>
+            ※生年月日
+            <label for="year"></label>
+            <select name="year" required>
+                <option value="">---</option>
+                <option value="2000">2000</option>
+                <option value="2001">2001</option>
+                <option value="2002">2002</option>
+            </select>
+            <select name="month" required>
+                <option value="">---</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+            <select name="day" required>
+                <option value="">---</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+        </div>
+        <div>
+            <label for="info">備考欄:</label>
+            <div>
+                <textarea name="info" id="info" cols=30 rows=10></textarea>
+            </div>
+        </div>
+        <div>
+            <input type="submit">
+        </div>
+    </form>
+</body>
+</html>
